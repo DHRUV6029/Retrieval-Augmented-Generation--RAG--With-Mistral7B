@@ -35,6 +35,10 @@ Store vectors in a vector store like ChromaDB, FAISS, or Pinecone for fast retri
 ### Query ###
 When a question is asked, embed the query and find the closest sentences in the vector store using cosine similarity.
 
+Below images shows the diffrence in responses with and without connecting to vectorDB.
+
+![Alt text](imgs/output_comparison.png)
+
 ### Run Instructions ###
 
 1. Run the Mistral_7b_LangChain.ipynb file it will launch the gradio UI 
